@@ -1,6 +1,6 @@
 # This first line is provided for you
 
-hrs = input("Egnter Hours:")
+hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
 pay = float(rate) * float(hrs)
 
