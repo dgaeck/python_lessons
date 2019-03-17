@@ -16,4 +16,20 @@ Created on Sun Mar 17 12:41:24 2019
 """
 
 hrs = input("Enter Hours:")
+rate = input("Enter Rate:")
 h = float(hrs)
+ot_rate = float(rate) * 1.5
+r = float(rate)
+
+if h > 40.0:
+    ot = h - 40
+    base = h - ot
+    print(ot)
+    print(base)
+    ot_pay = ot_rate * ot
+    base_pay = r * base
+    gross_pay = ot_pay + base_pay
+    print(gross_pay)
+else:
+    base_pay = r * h
+    print(base_pay)
