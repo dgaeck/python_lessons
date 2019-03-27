@@ -19,7 +19,7 @@ For the test, enter a score of 0.85.
 
 
 @author: Dan Gaecklein
-3/27/19
+3/27/2019
 """
 
 score = input("Enter Score: ")
