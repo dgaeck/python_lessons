@@ -9,5 +9,5 @@ def computepay(h,r):
     return 42.37
 
 hrs = input("Enter Hours:")
-p = computepay(100,200)
+p = computepay(10,200)
 print("Pay",p)
